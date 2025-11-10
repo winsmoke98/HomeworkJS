@@ -58,6 +58,4 @@ const updateTimer = () => {
     }
 }
 
-console.dir(dayblock)
-
 interval = setInterval(updateTimer, 500)

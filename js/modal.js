@@ -7,7 +7,8 @@ modalBtn.addEventListener('click', () => {
     modal.style.display = "flex";
 })
 
-crossBtn.addEventListener('click', () => {
+crossBtn.addEventListener('click', (event) => {
+    event.preventDefault()
     modal.style.display = "";
 })
 
